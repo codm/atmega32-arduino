@@ -24,7 +24,7 @@
 
 /*
    This is a modified ATMega8 / 168 file (the original Arduino Uno
-   Controller). Modified for ATMega32 pin layout
+   Controller). Modified for ATMega32 pin layout.
 
    cod.m GmbH, 2014
 */
