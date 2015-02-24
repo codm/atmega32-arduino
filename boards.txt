@@ -1,0 +1,22 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+##############################################################
+
+codm-mega32.name=cod.m Atmega32-16PU
+codm-mega32.upload.protocol=stk500
+codm-mega32.upload.maximum_size=30720
+codm-mega32.upload.speed=19200
+# codm-mega32.upload.maximum_size=32768
+# codm-mega32.upload.speed=38400
+
+codm-mega32.bootloader.low_fuses=0xff
+codm-mega32.bootloader.high_fuses=0xdf
+codm-mega32.bootloader.path=stk500
+codm-mega32.bootloader.file=ATmegaBOOT_168_atmega32.hex
+codm-mega32.bootloader.unlock_bits=0x3F
+codm-mega32.bootloader.lock_bits=0x0F
+
+codm-mega32.build.mcu=atmega32
+codm-mega32.build.f_cpu=16000000L
+codm-mega32.build.core=arduino:arduino
+codm-mega32.build.variant=codm-mega32
