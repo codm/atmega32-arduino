@@ -22,6 +22,13 @@
   $Id: wiring.h 249 2007-02-03 16:52:51Z mellis $
 */
 
+/*
+   This is a modified ATMega8 / 168 file (the original Arduino Uno
+   Controller). Modified for ATMega32 pin layout
+
+   cod.m GmbH, 2014
+*/
+
 #ifndef Pins_Arduino_h
 #define Pins_Arduino_h
 
