@@ -1,5 +1,7 @@
 # ATMega32 Arduino Pinout
 
+> Please use the excellent MightyCore for the ATMega32 https://github.com/MCUdude/MightyCore
+
 This is an AVR ATMega32 pinout definition for the Arduino framework.
 Just copy the files into your arduino/hardware/avr/ folder and select
 cod.m Atmega32-16PU as target device with an 16MhZ clockrate. This clock
